@@ -5,6 +5,7 @@ import { NotFoundComponent } from './views/not-found/not-found.component';
 import { CounterComponent } from './views/counter/counter.component';
 
 const routes: Routes = [
+  {path: 'increase', component: CounterComponent},
   {path: '', component: HomeComponent},
   {path: 'counter', component: CounterComponent},
   {path: '**', pathMatch: 'full', component: NotFoundComponent}

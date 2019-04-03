@@ -2,9 +2,9 @@
 You are expected to fork this repo and to commit to your fork after you complete each task, no matter the order you complete them in.
 
 #### Tasks to complete
-- Change the primary and accent colours of the theme.
+- done Change the primary and accent colours of the theme.
 
-- Change the not found page so that the url shows up in a different font. 
+- done Change the not found page so that the url shows up in a different font. 
 
 - Without editing the HTML, make the buttons in the counter component work. 
 

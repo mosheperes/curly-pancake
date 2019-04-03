@@ -12,12 +12,20 @@ export class CounterComponent {
 
   constructor() {
     this.counter = 0;
+    // `this.counter.counter(
+
+      // () => this.output = this.count.toString());
   }
 
-  decreaseCounter() {}
+  decreaseCounter() {
+    this.counter--;
+    this.counterChange.emit();
+  }
 
   increaseCounter() {
     this.counter++;
     this.counterChange.emit();
+   // this.increaseCounter = this.addS.transform(this.counter, this.stars);   // pipe that adds stars
+   // this.output = this.counter + ' ' + this.stars;
   }
 }
